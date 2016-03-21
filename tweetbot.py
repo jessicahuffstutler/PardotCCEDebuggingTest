@@ -16,7 +16,7 @@ try:
 
 	for line in tweets[:]:
 		
-		print ("Tweeting.....")
+		print ("Trying to tweet " + line)
 		twitter.update_status(status=line) #Send the tweet.
 		time.sleep(5)
 		
