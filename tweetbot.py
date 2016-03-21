@@ -3,16 +3,16 @@
 from twython import Twython, TwythonError
 import time
 
-APP_KEY = 'YourAppKey'
-APP_SECRET = 'YourAppSecret'
-OAUTH_TOKEN = 'YourOauthToken'
-OAUTH_TOKEN_SECRET = 'YourOauthTokenSecret'
+APP_KEY = 'XXXXXXXX'
+APP_SECRET = 'XXXXXXXX'
+OAUTH_TOKEN = 'XXXXXXXX'
+OAUTH_TOKEN_SECRET = 'XXXXXXXX'
 
 twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
 try:
-	with open('tweets.txt', 'r+') as tweetfile:
-		tweets = tweetfile.readlines()
+	with open('tweets.txt', 'r+') as tweetsfile:
+		tweets = tweetsfile.readlines()
 
 	for line in tweets[:]:
 		
