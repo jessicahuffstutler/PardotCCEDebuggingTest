@@ -10,4 +10,4 @@ Welcome to the Pardot CCE Debugging test.  To get started, you will need to do t
 
 5) Try to run tweetbot.py... You will have some errors
 
-6) Debug tweetbot.py WITHOUT modifying tweets.txt and submit a PR of your changes
+6) Debug tweetbot.py WITHOUT modifying tweets.txt and email your response to mary.baldwin@salesforce.com
