@@ -10,7 +10,7 @@ Welcome to the Pardot CCE Debugging test.  To get started, you will need to do t
 
 5) Try to run tweetbot.py... You will have some errors
 
-6) Debug tweetbot.py WITHOUT modifying tweets.txt.  It should reach the end of tweets.txt, making all the tweets that it can.
+6) Debug tweetbot.py WITHOUT modifying tweets.txt.  It should reach the end of tweets.txt, making all the tweets that it can
 
 7) Upload your answer to a new github repo
 
